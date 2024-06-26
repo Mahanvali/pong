@@ -27,6 +27,8 @@ int main(){
         UpdatePongGame();
         DrawPongGame();
     }
+    CloseWindow();
+    return 0;
 }
 
 void DrawPongGame()
